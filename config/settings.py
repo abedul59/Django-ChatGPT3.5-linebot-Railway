@@ -59,17 +59,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 
-DATABASES = {
-'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'mydatabase',
-    'USER': 'mydatabaseuser',
-    'PASSWORD': 'mypassword',
-    'HOST': '0.0.0.0',
-    'PORT': '5432',
-}
-
-}
+DATABASES = {}
 
 
 AUTH_PASSWORD_VALIDATORS = [
